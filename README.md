@@ -13,15 +13,24 @@ Two variables are growing at variables speeds. This solves the time A catches up
 
 ## Install
 
-``` typescript
+``` javascript
 npm install real-time-distance-problem
 ```
 
 ## Usage
-``` typescript
+``` javascript
 import RTDP from "real-time-distance-problem"
 
-EXAMPLE_USAGE_GOES_HERE
+let rtdp = new RTDP(15);
+
+let a = 0;
+let b = 50;
+setInterval(() => {
+    let result = rtdp(a,b);
+    console.log('time till a catches up to be:', result);
+    a += 10;
+    b += 5;
+}, 2500); // Every two and a half seconds update.
 
 ```
 
