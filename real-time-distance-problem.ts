@@ -9,7 +9,7 @@ interface Block {
 };
 
 interface Construct {
-  block:     Block
+  block:     Block;
   velocityA: number;
   velocityB: number;
 }
