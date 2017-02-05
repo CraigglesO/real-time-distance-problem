@@ -7,9 +7,9 @@
 [downloads-image]: https://img.shields.io/npm/dm/real-time-distance-problem.svg
 [downloads-url]: https://npmjs.org/package/real-time-distance-problem
 
-### BASIC_INFO_OF_PROJECT_GOES_HERE
+### A Real Time Distance Problem Solver
 
-INFORMATION_GOES_HERE
+Two variables are growing at variables speeds. This solves the time A catches up to B, if at all.
 
 ## Install
 
@@ -19,7 +19,7 @@ npm install real-time-distance-problem
 
 ## Usage
 ``` typescript
-import * as x from "real-time-distance-problem"
+import RTDP from "real-time-distance-problem"
 
 EXAMPLE_USAGE_GOES_HERE
 
