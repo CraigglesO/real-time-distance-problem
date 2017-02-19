@@ -1,5 +1,7 @@
 # real-time-distance-problem [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CraigglesO/real-time-distance-problem.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://travis-ci.org/CraigglesO/real-time-distance-problem.svg?branch=master
 [travis-url]: https://travis-ci.org/CraigglesO/real-time-distance-problem
 [npm-image]: https://img.shields.io/npm/v/real-time-distance-problem.svg
